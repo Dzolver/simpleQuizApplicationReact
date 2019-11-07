@@ -24,6 +24,7 @@ html{
 #quiz-game-container{
   background-color:#060819;
   position: absolute;
+  padding: 2%;
   height: 80%;
   width:80%;
   top: 10%;
