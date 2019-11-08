@@ -54,6 +54,16 @@ html{
   color: lime;
   height: 90%; 
 }
+#quiz-score{
+  color:hotpink;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 60px;
+}
+#game-over{
+  color:gold;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 80;
+}
 #results_container{
   color: yellowgreen;
 }
