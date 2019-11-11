@@ -4,7 +4,7 @@ import GameOver from './GameOver';
 
 class Quiz extends Component {
     constructor() {
-        super();
+        super();    
         this.state = {
             quiz_number: null,
             current_question: null,
@@ -23,6 +23,8 @@ class Quiz extends Component {
     highest_option_count = 4;
     componentDidMount() {
         //STUCK HERE
+        window.scrollTo(0,0);
+
         if (this.state.quiz_number == null) {
             this.setState({
                 quiz_number: this.props.quizNumber

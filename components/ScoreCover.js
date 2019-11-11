@@ -1,12 +1,10 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class ScoreCover extends Component {
-    render() {
+const ScoreCover =(props)=> {
         return (
             <div id='quiz-score'>
-                {this.props.score}
+                {props.score}
             </div>
-        )
-    }
+        );
 }
 export default ScoreCover;
